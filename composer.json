@@ -1,0 +1,14 @@
+{
+  "name": "ldarling/328/howdy",
+  "description": "f3 Practice",
+  "license": "open source",
+  "authors": [
+    {
+      "name": "Lyra Darling",
+      "email": "darling.lyra@student.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
