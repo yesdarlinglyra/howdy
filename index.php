@@ -12,8 +12,10 @@ $f3 = Base::instance();
 
 //define a default root
 $f3->route("GET /", function(){
-    echo"<h1> Howdy, World!</h1>"; //this is a view
+   // echo"<h1> Howdy, World!</h1>"; //this is a view
 
+    $view = new Template();
+    echo $view->render('views/directhere.html');
 
 });
 
